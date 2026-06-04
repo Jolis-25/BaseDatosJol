@@ -13,6 +13,7 @@ class UsuarioViewModel(
 ) : ViewModel() {
 
     private val _usuarios = MutableStateFlow<List<Usuario>>(emptyList())
+
     val usuarios: StateFlow<List<Usuario>> = _usuarios
 
     fun cargarUsuarios() {
