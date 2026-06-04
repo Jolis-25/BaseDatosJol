@@ -12,4 +12,5 @@ class UsuarioRepository(
 
     suspend fun getAllUsuarios() =
         usuarioDao.obtenerUsuarios()
+
 }
